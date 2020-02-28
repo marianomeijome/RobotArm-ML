@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 2779624007519813692}
   - component: {fileID: 9136599390989875256}
   - component: {fileID: 4661832826979085900}
-  - component: {fileID: 1154420773}
   m_Layer: 0
   m_Name: claws1
   m_TagString: Untagged
@@ -57,6 +56,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -81,19 +81,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!114 &1154420773
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 663104869979354896}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a4a6d60f37454e049b61e509f8fcf1d0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  position: {x: 0.6282952, y: 3.2324495, z: -0.019253884}
 --- !u!1 &666557925625080367
 GameObject:
   m_ObjectHideFlags: 0
@@ -149,6 +136,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -182,11 +170,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 666557925625080367}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7bd889f268439bf448a88616de8a8a0b, type: 3}
+  m_Script: {fileID: 11500000, guid: c504991875f3f9f458c3e67e3915f65d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  keyBinding: Translate7
-  speed: 2
+  keyBinding: Translate5
+  speed: 20
   minRotation: {x: 0, y: 0, z: 0}
   maxRotation: {x: 0, y: 0, z: 0}
   minTranslation: {x: 0, y: 0, z: -0.28}
@@ -247,6 +235,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -280,7 +269,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 3655648131508866772}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7bd889f268439bf448a88616de8a8a0b, type: 3}
+  m_Script: {fileID: 11500000, guid: c504991875f3f9f458c3e67e3915f65d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   keyBinding: Horizontal
@@ -298,7 +287,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9000422196206932028}
-  - component: {fileID: 4151571755339652951}
   m_Layer: 0
   m_Name: RobotArm
   m_TagString: Untagged
@@ -322,23 +310,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &4151571755339652951
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5385378910125056559}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f0c455926cbf83c4ab4c616a433933eb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Joints:
-  - {fileID: 3655648131508866772}
-  - {fileID: 8591676982600372847}
-  - {fileID: 6744699540437231487}
-  - {fileID: 6576554458288062201}
 --- !u!1 &6576554458288062201
 GameObject:
   m_ObjectHideFlags: 0
@@ -395,6 +366,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -428,7 +400,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 6576554458288062201}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7bd889f268439bf448a88616de8a8a0b, type: 3}
+  m_Script: {fileID: 11500000, guid: c504991875f3f9f458c3e67e3915f65d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   keyBinding: Vertical2
@@ -493,6 +465,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -526,7 +499,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 6744699540437231487}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7bd889f268439bf448a88616de8a8a0b, type: 3}
+  m_Script: {fileID: 11500000, guid: c504991875f3f9f458c3e67e3915f65d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   keyBinding: Vertical1
@@ -589,6 +562,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -668,6 +642,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -701,11 +676,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 7467388300558366519}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7bd889f268439bf448a88616de8a8a0b, type: 3}
+  m_Script: {fileID: 11500000, guid: c504991875f3f9f458c3e67e3915f65d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   keyBinding: Translate5
-  speed: 2
+  speed: 20
   minRotation: {x: 0, y: 0, z: 0}
   maxRotation: {x: 0, y: 0, z: 0}
   minTranslation: {x: 0, y: 0, z: 0}
@@ -766,6 +741,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -799,7 +775,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 8591676982600372847}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7bd889f268439bf448a88616de8a8a0b, type: 3}
+  m_Script: {fileID: 11500000, guid: c504991875f3f9f458c3e67e3915f65d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   keyBinding: Vertical
